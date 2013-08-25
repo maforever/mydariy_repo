@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_title_bar" 
+        >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置时间"
+            android:textColor="#ffffff"
+            android:textSize="20dp" 
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+            />
+        
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/menu_quit"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:onClick="btnClick" 
+            />	
+        
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:gravity="center"
+        >
+        <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            />
+        <TimePicker
+            android:id="@+id/timePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        >
+        
+        <TextView
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确定"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:clickable="true"
+            android:background="@drawable/btn_blue_gray"
+            android:onClick="btnClick"
+            android:textColor="#000000"
+            />
+        
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="取消"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:clickable="true"
+            android:background="@drawable/btn_blue_gray"
+            android:onClick="btnClick"
+            android:textColor="#000000" 
+            />
+        
+    </LinearLayout>
+    
+    
+    
+</LinearLayout>

@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    >
+
+	<FrameLayout
+	    android:id="@+id/fragment_container"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_above="@+id/appNavigationGridView" >
+
+	</FrameLayout>
+	
+	
+	<GridView
+	    android:id="@+id/appNavigationGridView"
+	    android:layout_width="match_parent"
+	    android:layout_height="60dp"
+	    android:layout_alignParentBottom="true"
+	    android:numColumns="5"
+	    android:horizontalSpacing="3dp"
+	    android:background="#ffff99"
+	    />
+</RelativeLayout>

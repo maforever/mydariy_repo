@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+    
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <include layout="@layout/common_title"/>
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        >
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_comment_title_bg"
+            android:id="@+id/notice_layout" 
+            >
+		
+            <TextView
+                android:id="@+id/notice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="您还没有普通日志,按menu键进行记录"
+                android:textColor="#000000"
+                android:textSize="16dp" 
+                android:layout_centerInParent="true"
+                />
+                
+        </RelativeLayout>
+        
+        
+    </LinearLayout>
+    
+
+</LinearLayout>

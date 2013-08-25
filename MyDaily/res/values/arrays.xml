@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="emotions_array">
+        
+        <item >[cat0]</item>
+        <item >[cat1]</item>
+        <item >[cat2]</item>
+        <item >[cat3]</item>
+        <item >[cat4]</item>
+    </string-array>
+    
+</resources>

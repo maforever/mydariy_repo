@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <com.example.mydaily.EmotionViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        
+    </com.example.mydaily.EmotionViewFlipper>
+    
+<!--     <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <GridView
+                android:id="@+id/grid1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="4" >
+            </GridView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/top_list_top1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <GridView
+                android:id="@+id/grid2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="4" >
+            </GridView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/top_list_top2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <GridView
+                android:id="@+id/grid3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="4" >
+            </GridView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/top_list_top3" />
+        </LinearLayout>
+    </ViewFlipper>
+ -->
+</LinearLayout>

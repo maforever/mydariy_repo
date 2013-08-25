@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="commondaily" type="id"></item>
+    <item name="growdaily" type="id"></item>
+    <item name="billdaily" type="id"></item>
+    <item name="share" type="id"></item>
+    <item name="systemconfig" type="id"></item>
+	<item name="emotion_cat_gridview1" type="id"></item>
+	<item name="emotion_cat_gridview2" type="id"></item>
+	<item name="emotion_cat_gridview3" type="id"></item>
+</resources>
